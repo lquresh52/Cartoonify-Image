@@ -35,7 +35,7 @@ def cartoonify(img_rgb):
 real_inputs = []
 cartoon_outputs = []
 
-img_rgb = cv2.imread("hunaid.jpeg")
+img_rgb = cv2.imread("black_panthor_actor.jpg")
 # img_rgb = cv2.resize(img_rgb, (600, 500))
 cv2.imshow('Img', img_rgb)
 cv2.waitKey(1000)
@@ -48,4 +48,4 @@ cartoon_outputs.append(output)
 
 cv2.imshow('Final Output',output)
 cv2.waitKey(1000)
-cv2.imwrite('hunaid_cartoon.jpg',output)
+cv2.imwrite('black_panthor_actor_cartoon.jpg',output)
